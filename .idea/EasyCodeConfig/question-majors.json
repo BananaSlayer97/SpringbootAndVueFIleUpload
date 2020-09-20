@@ -1,0 +1,26 @@
+{
+  "name" : "Majors",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : {
+      "disable" : true
+    }
+  }, {
+    "name" : "name",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.springboot.file_upload",
+  "savePath" : "./file_upload/src/main/java/com/springboot/file_upload",
+  "saveModelName" : "file_upload"
+}

@@ -1,0 +1,23 @@
+spring:
+   datasource:
+      password: root
+      username: root
+      url: jdbc:mysql://localhost:3306/springbootdemo?useSSL=false&serverTimezone=UTC
+      driver-class-name: com.mysql.jdbc.Driver
+   thymeleaf:
+     cache: false
+     mode: HTML
+server:
+  port: 8080
+
+#mybatis:
+#  mapper-locations: classpath:/mapper/*.xml
+#  type-aliases-package:
+
+mybatis:
+  mapper-locations: classpath:/mapper/*Dao.xml
+  typeAliasesPackage: com.springboot.file_upload.entity
+
+logging:
+  level:
+    root: info
