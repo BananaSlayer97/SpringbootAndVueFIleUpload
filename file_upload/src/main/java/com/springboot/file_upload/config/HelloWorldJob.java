@@ -11,7 +11,7 @@ import java.util.Date;
  * @author: 全栈者也
  * @create: 2020 - 09 - 23 23:53
  **/
-@DisallowConcurrentExecution //作业不并发
+@DisallowConcurrentExecution
 @Component
 public class HelloWorldJob  implements Job {
 
