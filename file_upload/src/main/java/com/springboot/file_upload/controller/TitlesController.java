@@ -29,7 +29,7 @@ public class TitlesController {
      */
     @GetMapping("selectOne")
     public Titles selectOne(Integer id) {
+        System.out.println("查询单个数据开始！");
         return this.titlesService.queryById(id);
     }
-
 }

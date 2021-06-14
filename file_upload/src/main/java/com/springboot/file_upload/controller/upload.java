@@ -22,11 +22,12 @@ import java.util.UUID;
 
 @RestController
 public class upload {
-
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
          @PostMapping("/upload")
         public Map<String,Object> fileUpload(MultipartFile file, HttpServletRequest request){
+             System.out.println("开始上传！-----------");
+
              Map<String,Object> map = new HashMap<>();
 
              //得到上传的文件名称
@@ -63,8 +64,6 @@ public class upload {
                  map.put("status","error");
                  map.put("message",e.getMessage());
              }
-
             return  map;
-
          }
 }
